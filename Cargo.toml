@@ -1,0 +1,13 @@
+[package]
+name = "diecast-liquid"
+version = "0.1.0"
+authors = ["Jorge Israel Peña <jorge.israel.p@gmail.com>"]
+
+[dependencies]
+typemap = "*"
+
+[dependencies.diecast]
+path = "../diecast"
+
+[dependencies.liquid]
+path = "../../liquid-rust"
